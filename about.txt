@@ -1,0 +1,23 @@
+import the random module
+
+generate a random number
+run a while LOOP for asking repititively until user guess the correct number
+    ask the user to make a guess
+    if not a valid number
+        print an error
+    if number < guess
+        print too low
+    if number > guess
+        print too high
+    else
+        print well done
+
+
+ideas and tips log:
+1. instead of implementing whole code all together always go trhough baby steps, make, then run. Helps in case of large programs.
+2. use try and error coz of type casting in line 7 and we should use try and except always for things like this line 6 to line 8
+
+error log:
+1. learned where to use break correctly to break the LOOP
+2. Didnt initialised the randint in loop coz otherwise after every iteration the randint will keep generatinf a new number and we would be keep guessing infinitely.
+
