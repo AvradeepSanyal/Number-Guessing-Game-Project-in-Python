@@ -1,0 +1,29 @@
+Mistakes I made when modifying:
+1. used continue for comparison statement instead of loops, as continue cant be used with ifelse it only works with for,while loop
+2. messed up the logic and mistook to understand the logic of  each block of loops and ifelse statement
+3. messed up some error handling statements 
+4. SHOULD learn more about parameters and there use in call and creation of function
+
+what did I learn:
+1. learned more about continue
+2. learned about different use of while and for loop for each logic and it can be changed later as per logic if needed
+3. learned about global and local scope more by diff type of errors like (typeerror, valueerror,            )
+4. And learned more about incrementation logic in global and local scope
+5. learned why dry run and python tutor or intuition is important for a logic buidling and code understanding or creation
+6. even in formatted strings, operations can happen in there and thus can change the variable in locally and globally
+7. learned why modularizing is very important for clean and efficient code
+
+Modifications I did:
+1. Allowed the user to specify the minimum and maximum values for the number
+range before the game starts. This gives the player more control over the
+difficulty level.
+2. Tried to make a combined numberguessing and dicerolling logic game
+like asking permission to start the game of number guessing with try and except 
+mandatory
+3. shown the attempts count for more great ui after each guess and if its wrong like or even out of range
+attempts reset to zero
+4. And if choice or guess or input is out of range, negative, from another data type or disbalanced range it returns proper support
+5.  
+
+Mistakes I made when modularizing:
+1. 
